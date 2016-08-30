@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C926DADD1D7581BB00477020 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C926DADC1D7581BB00477020 /* AppDelegate.swift */; };
+		C926DADF1D7581BB00477020 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C926DADE1D7581BB00477020 /* ViewController.swift */; };
+		C926DAE21D7581BB00477020 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C926DAE01D7581BB00477020 /* Main.storyboard */; };
+		C926DAE41D7581BB00477020 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C926DAE31D7581BB00477020 /* Assets.xcassets */; };
+		C926DAE71D7581BB00477020 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C926DAE51D7581BB00477020 /* LaunchScreen.storyboard */; };
+		C926DAF21D7581BB00477020 /* Zozor_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C926DAF11D7581BB00477020 /* Zozor_Tests.swift */; };
+		C926DAFD1D7581BB00477020 /* Zozor_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C926DAFC1D7581BB00477020 /* Zozor_UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C926DAEE1D7581BB00477020 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C926DAD11D7581BB00477020 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C926DAD81D7581BB00477020;
+			remoteInfo = "Zozor+";
+		};
+		C926DAF91D7581BB00477020 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C926DAD11D7581BB00477020 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C926DAD81D7581BB00477020;
+			remoteInfo = "Zozor+";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C926DAD91D7581BB00477020 /* Zozor+.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zozor+.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C926DADC1D7581BB00477020 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C926DADE1D7581BB00477020 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C926DAE11D7581BB00477020 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C926DAE31D7581BB00477020 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C926DAE61D7581BB00477020 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C926DAE81D7581BB00477020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C926DAED1D7581BB00477020 /* Zozor+Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zozor+Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C926DAF11D7581BB00477020 /* Zozor_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zozor_Tests.swift; sourceTree = "<group>"; };
+		C926DAF31D7581BB00477020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C926DAF81D7581BB00477020 /* Zozor+UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zozor+UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C926DAFC1D7581BB00477020 /* Zozor_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zozor_UITests.swift; sourceTree = "<group>"; };
+		C926DAFE1D7581BB00477020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C926DAD61D7581BB00477020 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C926DAEA1D7581BB00477020 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C926DAF51D7581BB00477020 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C926DAD01D7581BB00477020 = {
+			isa = PBXGroup;
+			children = (
+				C926DADB1D7581BB00477020 /* Zozor+ */,
+				C926DAF01D7581BB00477020 /* Zozor+Tests */,
+				C926DAFB1D7581BB00477020 /* Zozor+UITests */,
+				C926DADA1D7581BB00477020 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C926DADA1D7581BB00477020 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C926DAD91D7581BB00477020 /* Zozor+.app */,
+				C926DAED1D7581BB00477020 /* Zozor+Tests.xctest */,
+				C926DAF81D7581BB00477020 /* Zozor+UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C926DADB1D7581BB00477020 /* Zozor+ */ = {
+			isa = PBXGroup;
+			children = (
+				C926DADC1D7581BB00477020 /* AppDelegate.swift */,
+				C926DADE1D7581BB00477020 /* ViewController.swift */,
+				C926DAE01D7581BB00477020 /* Main.storyboard */,
+				C926DAE31D7581BB00477020 /* Assets.xcassets */,
+				C926DAE51D7581BB00477020 /* LaunchScreen.storyboard */,
+				C926DAE81D7581BB00477020 /* Info.plist */,
+			);
+			path = "Zozor+";
+			sourceTree = "<group>";
+		};
+		C926DAF01D7581BB00477020 /* Zozor+Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C926DAF11D7581BB00477020 /* Zozor_Tests.swift */,
+				C926DAF31D7581BB00477020 /* Info.plist */,
+			);
+			path = "Zozor+Tests";
+			sourceTree = "<group>";
+		};
+		C926DAFB1D7581BB00477020 /* Zozor+UITests */ = {
+			isa = PBXGroup;
+			children = (
+				C926DAFC1D7581BB00477020 /* Zozor_UITests.swift */,
+				C926DAFE1D7581BB00477020 /* Info.plist */,
+			);
+			path = "Zozor+UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C926DAD81D7581BB00477020 /* Zozor+ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C926DB011D7581BB00477020 /* Build configuration list for PBXNativeTarget "Zozor+" */;
+			buildPhases = (
+				C926DAD51D7581BB00477020 /* Sources */,
+				C926DAD61D7581BB00477020 /* Frameworks */,
+				C926DAD71D7581BB00477020 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Zozor+";
+			productName = "Zozor+";
+			productReference = C926DAD91D7581BB00477020 /* Zozor+.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C926DAEC1D7581BB00477020 /* Zozor+Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C926DB041D7581BB00477020 /* Build configuration list for PBXNativeTarget "Zozor+Tests" */;
+			buildPhases = (
+				C926DAE91D7581BB00477020 /* Sources */,
+				C926DAEA1D7581BB00477020 /* Frameworks */,
+				C926DAEB1D7581BB00477020 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C926DAEF1D7581BB00477020 /* PBXTargetDependency */,
+			);
+			name = "Zozor+Tests";
+			productName = "Zozor+Tests";
+			productReference = C926DAED1D7581BB00477020 /* Zozor+Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C926DAF71D7581BB00477020 /* Zozor+UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C926DB071D7581BB00477020 /* Build configuration list for PBXNativeTarget "Zozor+UITests" */;
+			buildPhases = (
+				C926DAF41D7581BB00477020 /* Sources */,
+				C926DAF51D7581BB00477020 /* Frameworks */,
+				C926DAF61D7581BB00477020 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C926DAFA1D7581BB00477020 /* PBXTargetDependency */,
+			);
+			name = "Zozor+UITests";
+			productName = "Zozor+UITests";
+			productReference = C926DAF81D7581BB00477020 /* Zozor+UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C926DAD11D7581BB00477020 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Ambroise Collon";
+				TargetAttributes = {
+					C926DAD81D7581BB00477020 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					C926DAEC1D7581BB00477020 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C926DAD81D7581BB00477020;
+					};
+					C926DAF71D7581BB00477020 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C926DAD81D7581BB00477020;
+					};
+				};
+			};
+			buildConfigurationList = C926DAD41D7581BB00477020 /* Build configuration list for PBXProject "Zozor+" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C926DAD01D7581BB00477020;
+			productRefGroup = C926DADA1D7581BB00477020 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C926DAD81D7581BB00477020 /* Zozor+ */,
+				C926DAEC1D7581BB00477020 /* Zozor+Tests */,
+				C926DAF71D7581BB00477020 /* Zozor+UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C926DAD71D7581BB00477020 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C926DAE71D7581BB00477020 /* LaunchScreen.storyboard in Resources */,
+				C926DAE41D7581BB00477020 /* Assets.xcassets in Resources */,
+				C926DAE21D7581BB00477020 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C926DAEB1D7581BB00477020 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C926DAF61D7581BB00477020 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C926DAD51D7581BB00477020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C926DADF1D7581BB00477020 /* ViewController.swift in Sources */,
+				C926DADD1D7581BB00477020 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C926DAE91D7581BB00477020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C926DAF21D7581BB00477020 /* Zozor_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C926DAF41D7581BB00477020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C926DAFD1D7581BB00477020 /* Zozor_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C926DAEF1D7581BB00477020 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C926DAD81D7581BB00477020 /* Zozor+ */;
+			targetProxy = C926DAEE1D7581BB00477020 /* PBXContainerItemProxy */;
+		};
+		C926DAFA1D7581BB00477020 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C926DAD81D7581BB00477020 /* Zozor+ */;
+			targetProxy = C926DAF91D7581BB00477020 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C926DAE01D7581BB00477020 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C926DAE11D7581BB00477020 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C926DAE51D7581BB00477020 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C926DAE61D7581BB00477020 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C926DAFF1D7581BB00477020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C926DB001D7581BB00477020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C926DB021D7581BB00477020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Zozor+/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ambroisecollon.Zozor-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C926DB031D7581BB00477020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Zozor+/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ambroisecollon.Zozor-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C926DB051D7581BB00477020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Zozor+Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ambroisecollon.Zozor-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zozor+.app/Zozor+";
+			};
+			name = Debug;
+		};
+		C926DB061D7581BB00477020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Zozor+Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ambroisecollon.Zozor-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zozor+.app/Zozor+";
+			};
+			name = Release;
+		};
+		C926DB081D7581BB00477020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Zozor+UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ambroisecollon.Zozor-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Zozor+";
+			};
+			name = Debug;
+		};
+		C926DB091D7581BB00477020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Zozor+UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ambroisecollon.Zozor-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Zozor+";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C926DAD41D7581BB00477020 /* Build configuration list for PBXProject "Zozor+" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C926DAFF1D7581BB00477020 /* Debug */,
+				C926DB001D7581BB00477020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C926DB011D7581BB00477020 /* Build configuration list for PBXNativeTarget "Zozor+" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C926DB021D7581BB00477020 /* Debug */,
+				C926DB031D7581BB00477020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C926DB041D7581BB00477020 /* Build configuration list for PBXNativeTarget "Zozor+Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C926DB051D7581BB00477020 /* Debug */,
+				C926DB061D7581BB00477020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C926DB071D7581BB00477020 /* Build configuration list for PBXNativeTarget "Zozor+UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C926DB081D7581BB00477020 /* Debug */,
+				C926DB091D7581BB00477020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C926DAD11D7581BB00477020 /* Project object */;
+}
