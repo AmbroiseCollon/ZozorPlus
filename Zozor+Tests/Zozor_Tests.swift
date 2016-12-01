@@ -1,6 +1,6 @@
 //
 //  Zozor_Tests.swift
-//  Zozor+Tests
+//  CountOnMeTests
 //
 //  Created by Ambroise COLLON on 30/08/2016.
 //  Copyright © 2016 Ambroise Collon. All rights reserved.
